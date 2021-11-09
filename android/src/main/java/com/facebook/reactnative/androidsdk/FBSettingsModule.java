@@ -36,7 +36,7 @@ public class FBSettingsModule extends BaseJavaModule {
      */
     @ReactMethod
     public void setDataProcessingOptions(@Nullable String[] options) {
-        FacebookSdk.setDataProcessingOptions(options, 0, 0);
+        // FacebookSdk.setDataProcessingOptions(options, 0, 0);
     }
 
     /**
@@ -47,7 +47,7 @@ public class FBSettingsModule extends BaseJavaModule {
      */
     @ReactMethod
     public static void setDataProcessingOptionsExtra(@Nullable String[] options, int country, int state) {
-        FacebookSdk.setDataProcessingOptions(options, country, state);
+        // FacebookSdk.setDataProcessingOptions(options, country, state);
     }
 
     /**
